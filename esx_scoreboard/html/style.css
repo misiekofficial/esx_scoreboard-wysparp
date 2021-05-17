@@ -1,0 +1,120 @@
+#wrap {
+	width: 713px;
+	max-width: 713px;
+	min-height: 932px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(37,37,37,0.7);
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+	border-bottom: 1px solid #2abde9;
+	z-index: 99999999;
+}
+
+#wrap.admin {
+	width: 1413px;
+	max-width: 1413px;
+}
+
+table {
+	text-align: left;
+}
+
+th {
+	padding-left: 25px;
+}
+
+#playerid {
+	position: absolute;
+	font-size: 11px;
+	padding-top: 6px;
+	padding-left: 5px;
+}
+
+#steam {
+	position: absolute;
+	font-size: 11px;
+	padding-top: 6px;
+	padding-left: 30px;
+}
+#player {
+	position: absolute;
+	font-size: 11px;
+	padding-top: 6px;
+	padding-left: 150px;
+}
+
+tr {
+	background: rgb(29,29,29,0.4);
+
+	width: 175px;
+	display: block;
+	height: 25px;
+	position: relative;
+
+	margin-left: 2.5px;
+
+	text-align: center;
+	float: left;
+	font-size: 15px;
+	margin-top: 2.5px;
+
+	font-family: 'sans-serif';
+	color: white;
+}
+
+tr.admin {
+	width: 350px;
+}
+
+.heading {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+	text-align: left;
+	font-family: 'sans-serif';
+    background: rgb(29,29,29,0.4);
+    padding-left: 35px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: #2abde9;
+}
+
+#website {
+	color: #2abde9;
+	margin-top: -38px;
+	margin-left: 170px;
+	font-size: 13px;
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#discord {
+	margin-top: -25px;
+	margin-left: 170px;
+	font-size: 13px;
+	color: #2abde9;
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image {
+	margin-top: -40px;
+	margin-left: 340px;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+}
+
+#duties {
+	margin-top: -42px;
+	margin-left: 400px;
+	font-size: 12px;
+	color: white;
+	position: absolute;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
